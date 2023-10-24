@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="mainBack" lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">    
+        <title>Registration</title>
+        <div class="cent"><a href="index.html"><img src="img/logo.png" alt="aquila" width="450"></a></div>
+        <h1 class="hdr1"><b>Astra Militarum</b></h1>
+        <nav>
+            <button class="navButton"><a href="index.html"><b>General</b></a></button>
+            <button class="navButton"><a href="registration.html"><b>Registration</b></a></button> 
+        </nav>
+    </head>
+
+    <body>
+        <h2 class="hdr1">In the Emperor's name onwards to victory!</h2>
+        <h3 class="hdr2">Sign up for eternal glory!</h3>
+        <img src="img/prop.jpg" alt="PROP" width="400">
+        <form action="#">
+            <p><label><input class="inputFormat" type="text" required autofocus placeholder="John"> Name</label></p>
+            <p><label><input class="inputFormat" type="text" required placeholder="Deer"> Surname</label></p>
+            <p><label><input class="inputFormat" type="email" required placeholder="example@voxmail.im"> Vox-mail adress</label></p>
+            <p><label><input class="inputFormat" type="password" required minlength="16" maxlength="32" placeholder="*************"> Password</label></p>
+            <p><label><input class="inputFormat" type="password" required minlength="16" maxlength="32" placeholder="*************"> Password confirmation</label></p>
+            <p><label><input class="inputFormat" type="date" required> Birthdate</label></p>
+            <p><b>Gender</b></p>
+            <p>
+                <label><input type="radio" checked id="Gender1" name="GenderRadio"> Male </label>
+                <label><input type="radio" id="Gender2" name="GenderRadio"> Female</label>
+                <label><input type="radio" id="Gender3" name="GenderRadio"> Xeno</label>
+            </p>
+            <p><b>Choose regiment</b></p>
+            <select class="inputFormat" >
+                <option>Armageddon Steel Legion</option>
+                <option>Attilan Rough Riders</option>
+                <option>Cadian Shock Troopers</option>
+                <option>Catachan Jungle Fighters</option>
+                <option>Death Korps of Krieg</option>
+                <option>Elysian Drop Troops</option>
+                <option>Mordian Iron Guard</option>
+                <option>Tallarn Desert Raiders</option>
+                <option>Tanith First and Only</option>
+                <option>Valhallan Ice Warriors</option>
+                <option>Vostroyan Firstborn</option>
+            </select>
+
+            <p><b>Receive info about invasions</b></p>
+            <p><label><input type="checkbox" checked> Tyranids</label></p>
+            <p><label><input type="checkbox" checked> Orks</label></p>
+            <p><label><input type="checkbox" checked> Eldar</label></p>
+            <p><label><input type="1heckbox" checked> Chaos</label></p>
+            <p>
+                <button class="myButton" type="submit">Send to Administratum</button>
+                <button class="myButton" type="reset">Refuse</button>
+            </p>
+
+        </form>
+    </body>
+    <footer>
+        <p class="cent"><i><b>Success is commemorated; Failure merely remembered. (все права защищены 2023)</b></i></p>
+    </footer>
+    <script src="js/reg.js"></script>
+</html>
