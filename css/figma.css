@@ -125,3 +125,23 @@
   .impress{
     padding-bottom: 154px;
   }
+
+  @media (max-width: 1024px) {
+    .heading .title{
+      font-size: 42px;  
+    }
+    .center{
+      padding-left: calc(50% - 1024px / 2);
+      padding-right: calc(50% - 1024px / 2);  
+    }
+  }
+  
+  @media (max-width: 720px) {
+    .heading .title{
+      font-size: 25px;  
+    }
+    .center{
+      padding-left: calc(50% - 500px / 2);
+      padding-right: calc(50% - 500px / 2);  
+    }
+  }  
